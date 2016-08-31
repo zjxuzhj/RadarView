@@ -32,7 +32,7 @@ public class RadarView4 extends View {
         public void run() {
             start++;
 
-            mMatrix = new Matrix();
+
             //为矩阵设置旋转坐标
             mMatrix.setRotate(start, w / 2, h / 2);
             //刷新ui
@@ -79,6 +79,8 @@ public class RadarView4 extends View {
         mShaderPaint.setAntiAlias(true);
         //设置画笔风格为填充模式
         mShaderPaint.setStyle(Paint.Style.FILL);
+
+        mMatrix = new Matrix();
     }
 
 

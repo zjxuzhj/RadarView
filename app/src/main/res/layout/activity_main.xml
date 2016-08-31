@@ -8,7 +8,7 @@
     tools:context="zhj.radarview.MainActivity">
 
 
-    <zhj.radarview.RadarView4
+    <zhj.radarview.TantanRadarView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
